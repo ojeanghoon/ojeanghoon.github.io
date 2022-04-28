@@ -120,7 +120,7 @@ D-->|3/6|Z
 
 
 
-java link [Ford-Fulkerson](url)
+java link [Ford-Fulkerson](https://github.com/ojeanghoon/ojeanghoon.github.io/blob/main/_posts/Ford-Fulkerson-Algorithm/FordFulkerson.java)
 
 ```
 콘솔창
