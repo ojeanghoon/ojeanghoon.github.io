@@ -1,10 +1,3 @@
----
-layout: post
-title:  "Ford Fulkerson Algorithm"
-date:   2022-04-28 12:32:04 +0900
-
----
-
 # Ford-Fulkerson Algorithm
 
 네트워크 유량의 가장 기본적인 알고리즘 중 하나인 포드 풀커슨(Ford-Fulkerson) 알고리즘으로 시작점에서 도착점으로 얼마나 많은 유량(flow)를 보낼 수 있는 최대의 양을 구하는 알고리즘이다.
