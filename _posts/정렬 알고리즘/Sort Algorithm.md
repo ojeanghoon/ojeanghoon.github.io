@@ -151,6 +151,51 @@ public class Select {
 
 : 배열의 정렬된 부분(앞부분)과 정렬이 안 된 부분(뒷 부분)으로 나누고, 정렬이 안 된 부분의 가장 왼쪽 원소를 정렬된 부분의 적절한 위치에 삽입하여 정렬되도록 하는 과정을 반복한다.
 
+
+``` java
+import java.util.Arrays;
+
+public class Insertion {
+	static int[] nums;
+
+	public static void main(String[] args) {
+		long start = System.currentTimeMillis(); //실행전
+		for (int t=32; t < 1048577 ; t*=2) {
+			System.out.println("입력 개수 : "+t);
+		nums = new int[t];
+		for (int i = 0; i < t; i++) {
+				nums[i] = (int) (Math.random() * t); //랜덤 배열
+		 	//	nums[i] = i; // 오름차순 [0, 1, 2, 3, 4, ... t-1]
+			//   nums[i] = t-1-i; //내림차순 [t-1, t-2, t-3, ... 0]
+		}
+
+		// System.out.println("<정렬 전>"+Arrays.toString(nums));
+		
+		for(int i = 1; i < nums.length; i++) {
+			// 현재 선택된 원소의 값을 임시 변수에 저장해준다.
+			int temp = nums[i];
+			// 현재 원소를 기준으로 이전 원소를 탐색하기 위한 index 변수.
+			int prev = i - 1;
+			// 현재 선택된 원소가 이전 원소보다 작은 경우까지만 반복. 단, 0번째 원소까지만 비교한다.
+			while(prev >= 0 && nums[prev] > temp) {
+				// 현재 선택된 원소가 현재 탐색중인 원소보다 작다면, 해당 원소는 다음 인덱스로 미뤄버린다.
+				nums[prev + 1] = nums[prev];
+				// 다음 대상 원소를 탐색한다.
+				prev--;
+			}
+			// 탐색이 종료된 지점에 현재 선택되었던 변수의 값을 삽입해준다.
+			nums[prev + 1] = temp;
+		}
+		
+		// System.out.println("<정렬 후>"+Arrays.toString(nums));
+		long end = System.currentTimeMillis();
+		long sec= (end-start);
+		System.out.println("시간(ms) : "+sec);
+		System.out.println();
+		}
+	}
+}
+
 1. 랜덤배열(average) 시도횟수&#92;입력개수 걸리는 시간을 나타내는 표이다. (시간 : ms)
 
 | .    | 2<sup>5</sup> | 2<sup>6</sup> | 2<sup>7</sup> | 2<sup>8</sup> | 2<sup>9</sup> | 2<sup>10</sup> | 2<sup>11</sup> | 2<sup>12</sup> | 2<sup>13</sup> | 2<sup>14</sup> | 2<sup>15</sup> | 2<sup>16</sup> | 2<sup>17</sup> | 2<sup>18</sup> | 2<sup>19</sup> | 2<sup>20</sup> |
