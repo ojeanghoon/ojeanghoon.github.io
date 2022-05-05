@@ -195,6 +195,7 @@ public class Insertion {
 		}
 	}
 }
+```
 
 1. 랜덤배열(average) 시도횟수&#92;입력개수 걸리는 시간을 나타내는 표이다. (시간 : ms)
 
