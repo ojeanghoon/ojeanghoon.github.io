@@ -69,7 +69,7 @@ public class Bubble {
 | ---- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
 |      | 1             | 2             | 3             | 4             | 6             | 8              | 18             | 38             | 106            | 375            | 1446           | 5747           | 22928          |                |                |                |
 
-![]()
+![](https://github.com/ojeanghoon/ojeanghoon.github.io/blob/main/_posts/%EC%A0%95%EB%A0%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Sort%20Graph/Bubble.jpg?raw=true)
 
 ---
 
@@ -143,7 +143,7 @@ public class Select {
 | ---- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
 |      | 1             | 2             | 2             | 3             | 5             | 8              | 18             | 35             | 100            | 342            | 1314           | 5292           | 20716          |                |                |                |
 
-![]()
+![](https://github.com/ojeanghoon/ojeanghoon.github.io/blob/main/_posts/%EC%A0%95%EB%A0%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Sort%20Graph/Selection.jpg?raw=true)
 
 ---
 
@@ -179,7 +179,7 @@ public class Select {
 | ---- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
 |      | 1             | 1             | 2             | 2             | 4             | 7              | 13             | 61             | 117            | 343            | 1240           | 4915           | 19574          |                |                |                |
 
-![]()
+![](https://github.com/ojeanghoon/ojeanghoon.github.io/blob/main/_posts/%EC%A0%95%EB%A0%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Sort%20Graph/Insertion.jpg?raw=true)
 
 ---
 
@@ -267,7 +267,7 @@ public class Shell {
 | ---- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
 |      | 1             | 1             | 1             | 1             | 1             | 1              | 2              | 2              | 3              | 5              | 8              | 12             | 23             | 48             | 106            | 248            |
 
-![]()
+![](https://github.com/ojeanghoon/ojeanghoon.github.io/blob/main/_posts/%EC%A0%95%EB%A0%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Sort%20Graph/Shell.jpg?raw=true)
 
 ---
 
@@ -365,7 +365,7 @@ public class Heap {
 | ---- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
 |      | 1             | 1             | 2             | 2             | 2             | 2              | 2              | 2              | 2              | 3              | 4              | 4              | 6              | 7              | 11             | 21             |
 
-![]()
+![](https://github.com/ojeanghoon/ojeanghoon.github.io/blob/main/_posts/%EC%A0%95%EB%A0%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Sort%20Graph/Heap.jpg?raw=true)
 
 ---
 
@@ -456,20 +456,20 @@ public class Quick {
 | ---- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- |
 |      | 1             | 1             | 2             | 2             | 2             | 2              | 2              | 3              | 3              | 5              | 8              | 9              | 12             | 18             | 31             | 56             |
 
-![]()
+![](https://github.com/ojeanghoon/ojeanghoon.github.io/blob/main/_posts/%EC%A0%95%EB%A0%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Sort%20Graph/Quick.jpg?raw=true)
 
 
 
 #### 비교
 
-![]()
+![](https://github.com/ojeanghoon/ojeanghoon.github.io/blob/main/_posts/%EC%A0%95%EB%A0%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Sort%20Graph/%EB%9E%9C%EB%8D%A4%20%EB%B0%B0%EC%97%B4.jpg?raw=true)
 
 랜덤 배열 성능(좋은 순서) : Heap, Quick, Shell, Insertion, Selection, Bubble
 
-![]()
+![](https://github.com/ojeanghoon/ojeanghoon.github.io/blob/main/_posts/%EC%A0%95%EB%A0%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Sort%20Graph/%EC%A0%95%EB%A0%AC%EB%90%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0.jpg?raw=true)
 
 정렬된 데이터(좋은 순서) :  Heap, Insertion, Quick, Shell, Selection, Bubble
 
-![]()
+![](https://github.com/ojeanghoon/ojeanghoon.github.io/blob/main/_posts/%EC%A0%95%EB%A0%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Sort%20Graph/%EC%97%AD%20%EC%A0%95%EB%A0%AC%20%EB%8D%B0%EC%9D%B4%ED%84%B0.jpg?raw=true)
 
 역 정렬된 데이터(좋은 순서) : Heap, Quick, Shell, Insertion, Selection, Bubble
