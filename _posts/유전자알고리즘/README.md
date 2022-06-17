@@ -14,7 +14,7 @@
 
 위의 값을 다음과 같이 이용한다.
 
-![]()
+![](https://github.com/ojeanghoon/ojeanghoon.github.io/blob/main/_posts/%EC%9C%A0%EC%A0%84%EC%9E%90%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%82%BC%EC%84%B1%EC%A3%BC%EC%8B%9D.jpg?raw=true)
 
 | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -157,7 +157,7 @@ if(change==0) {
 
 기존의 가격그래프와 확인해본다.
 
-![]()
+![](https://github.com/ojeanghoon/ojeanghoon.github.io/blob/main/_posts/%EC%9C%A0%EC%A0%84%EC%9E%90%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9C%A0%EC%A0%84%EC%9E%90%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.jpg?raw=true)
 
 돌연변이가 무조건 발생하는 경우와 발생하지 않는경우를 각각 30회 실행결과 평균 오류수치가 돌연변이가 100%발생하는 경우가 약 28개정도 적은 결과가 나왔다.
 
